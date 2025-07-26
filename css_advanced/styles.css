@@ -453,6 +453,53 @@ header ul li a {
   text-align: left;
 }
 
+/* ================= FOOTER ================= */
+footer {
+  background-color: #071629;
+  padding: 60px 0;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer section {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer section > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 40px;
+}
+
+footer section img {
+  height: 30px;
+}
+
+footer section div i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  transition: color 0.3s ease;
+}
+
+footer section div i:hover {
+  color: #C271FF;
+}
+
+footer p {
+  font-size: 12px;
+  opacity: 0.35;
+  margin: 0;
+}
+
 
 
 
