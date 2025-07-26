@@ -401,6 +401,57 @@ header ul li a {
   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.6);
 }
 
+/* =============== FAQ SECTION =============== */
+.faq-section {
+  background-color: #ffffff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.faq-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 75px;
+  color: #071629;
+  margin-bottom: 60px;
+}
+
+.faq-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.faq-column {
+  flex: 1;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.faq-item h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #071629;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(7, 22, 41, 0.5);
+  text-align: left;
+}
 
 
 
