@@ -154,6 +154,54 @@ header ul li a {
   color: #fff;
 }
 
+/* ========== TESTIMONIAL SECTION ========== */
+.testimonial-section {
+  background-color: #C271FF;
+  padding: 60px 20px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-container {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.testimonial-image img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-text {
+  max-width: 700px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.testimonial-text blockquote {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 34px;
+  margin-bottom: 15px;
+}
+
+.testimonial-text h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.testimonial-text p {
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 300;
+}
+
 
 
 
