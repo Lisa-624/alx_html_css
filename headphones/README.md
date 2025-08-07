@@ -1,4 +1,35 @@
-# 🎧 Headphones Web Page Project
+# Headphones Web Page 🎧
+
+This project is part of the ALX HTML & CSS curriculum. It involves building a responsive landing page for a fictional headphones brand based on a given Figma design.
+
+## 🌐 Project Overview
+
+The page is styled to match a professional Figma design and adapts to both desktop and mobile screen sizes.
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3
+
+## 📱 Responsive Design
+
+- The layout automatically switches to a mobile-friendly version when the screen width is 480px or less.
+- The content is centered and constrained to a maximum width of 1000px on larger screens.
+
+## ✨ Interactions
+
+- **Links** hover/active state color: `#FF6565`
+- **Buttons** hover/active effect: `opacity: 0.9`
+
+## 🎨 Figma Design
+
+[Click here to view the Figma file](https://www.figma.com/file/SOME_FAKE_LINK)  
+_Don’t forget to duplicate the file to your drafts._
+
+## ✍️ Author
+
+Elizabeth Wanjiru  
+GitHub: [@Lisa-624](https://github.com/Lis# 🎧 Headphones Web Page Project
 
 This project is part of the **ALX HTML & CSS Advanced** curriculum. It focuses on building a responsive, visually appealing landing page for a headphones brand, following a professional Figma design file.
 
