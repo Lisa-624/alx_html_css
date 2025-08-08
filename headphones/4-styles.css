@@ -1,0 +1,395 @@
+/* Reset & basic setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #FF6565;
+  --text-color: #fff;
+  --bg-color: #1c1c1c;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Layout */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+.hero {
+  background: url('images/headphones_hero_1.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.nav-links a:hover {
+  color: var(--primary-color);
+}
+
+.hero-content {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-bottom: 65px;
+}
+
+.btn:hover {
+  background-color: #e05555;
+}
+
+.hero-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 20px auto 0;
+  color: var(--text-color);
+}
+
+/* What We Do */
+
+.what-we-do-section {
+  background-color: #ffffff;
+  padding: 100px 0;
+  width: 100%;
+}
+
+.what-we-do-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.what-we-do-section h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 32px;
+  color: #071629;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #071629;
+  max-width: 600px;
+  margin: 0 auto 60px auto;
+}
+
+.icon-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.icon-card {
+  width: 220px;
+  text-align: center;
+}
+
+.icon-card i {
+  font-size: 50px;
+  color: #ff6565;
+  margin-bottom: 20px;
+}
+
+.icon-card h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color: #071629;
+  margin-bottom: 10px;
+}
+
+.icon-card p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  color: #071629;
+  line-height: 26px;
+}
+
+/* Our Results Section */
+
+.our-results {
+  position: relative;
+  width: 100%;
+  min-height: 650px; /* fills full screen height */
+  overflow: hidden;
+}
+
+.results-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #D8D8D8; /* background mask */
+}
+
+.results-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background:
+    radial-gradient(73.41% 73.41% at 0% 0%, rgba(16, 25, 41, 0.47) 0%, #071629 100%),
+    url("images/headphones_hero_2.jpg");
+  background-blend-mode: normal, color;
+  background-size: cover;
+  background-position: center;
+}
+
+.results-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.results-content h2 {
+  font-size: 32px;
+  line-height: 38px;
+  margin-bottom: 20px;
+}
+
+.results-content p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+
+.stats {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.stat {
+  background-image: url("images/pentagone.png");
+  background-size: cover;
+  background-position: center;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+.stat-number {
+  font-size: 46px;
+  font-weight: 700;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-label {
+  font-size: 14px;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Figma absolute positioning based on container */
+.dot_1 {
+  left: 14.79%;
+  top: 58.62%;
+}
+
+.dot_2 {
+  left: 33.79%;
+  top: 58.62%;
+}
+
+.dot_3 {
+  left: 52.79%;
+  top: 58.62%;
+}
+
+.dot_4 {
+  left: 71.79%;
+  top: 58.62%;
+}
+
+/* Contact Us */
+
+/* Contact Section */
+.contact-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #071629;
+}
+
+.contact-section p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #071629;
+}
+
+/* Contact Form */
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #ff6565;
+  outline: none;
+}
+
+/* Button Styling */
+.contact-form .btn {
+  display: block;
+  background-color: #ff6565;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 0 auto; /* Centers the button */
+}
+
+.contact-form .btn:hover {
+  background-color: #e05555;
+}
+
+/* Footer */
+footer {
+  background-color: #071629;
+  height: 249px; /* matches Figma height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+}
+
+/* Logo + social icons in one row */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px; /* matches Figma width for row */
+  margin: 90px auto 0 auto; /* top margin matches Figma's 90px from top */
+}
+
+/* Logo */
+footer .logo {
+  width: 160px; /* matches Figma size */
+  height: auto;
+}
+
+/* Social icons */
+footer .social-icons {
+  display: flex;
+  gap: 40px;
+}
+
+footer .social-icons i {
+  font-size: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+footer .social-icons i:hover {
+  /*opacity: 1;*/
+  color: #FF6565;
+}
+
+/* Copyright text at bottom center */
+footer p {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.35;
+}
+
+
+
+
+
+
